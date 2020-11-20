@@ -1,2 +1,4 @@
 271100_buggy.c
 271100_correct.c
+20,21
+缺少else
