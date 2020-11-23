@@ -1,2 +1,4 @@
 277950_buggy.c
 277950_correct.c
+15
+sum变量计算错误

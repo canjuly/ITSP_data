@@ -1,2 +1,4 @@
 277580_buggy.c
 277580_correct.c
+17
+num赋值错误
