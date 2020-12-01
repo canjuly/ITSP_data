@@ -1,2 +1,4 @@
 278343_buggy.c
 278343_correct.c
+24
+for循环语句错误

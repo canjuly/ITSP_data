@@ -1,2 +1,4 @@
 278461_buggy.c
 278461_correct.c
+91
+if应改为else if

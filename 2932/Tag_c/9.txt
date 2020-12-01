@@ -1,2 +1,4 @@
 280010_buggy.c
 280010_correct.c
+50
+for循环语句错误

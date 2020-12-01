@@ -1,2 +1,4 @@
 280004_buggy.c
 280004_correct.c
+41
+缺少sum的初始化
