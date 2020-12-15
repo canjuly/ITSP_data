@@ -1,0 +1,1 @@
+[{'res': False, 'info': {'y': ['1004']}}, {'res': True, 'info': {'y': ['2009']}}, {'res': False, 'info': {'y': ['2012']}}, {'res': True, 'info': {'y': ['2115']}}, {'res': True, 'info': {'y': ['1000']}}, {'res': True, 'info': {'y': ['1700']}}, {'res': True, 'info': {'y': ['1900']}}, {'res': True, 'info': {'y': ['2000']}}]
