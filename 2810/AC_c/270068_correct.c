@@ -11,6 +11,7 @@ Verdict:ACCEPTED, Visibility:0, Input:"0.0001 -1000", ExpOutput:"The area of (0.
 #include<stdio.h>
 #include<stdlib.h>       // this header file includes the abs() function 
 #include<float.h>
+#include<math.h>
 int main(){
 	float a,b,area ;      /* a and b are to take values from user and                                 area gets the calculated area */
 	scanf("%f %f",&a,&b);

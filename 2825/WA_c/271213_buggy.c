@@ -8,7 +8,7 @@ Verdict:WRONG_ANSWER, Visibility:0, Input:"0.0 0.0 5.0 3.0 4.0", ExpOutput:"Poin
 Verdict:ACCEPTED, Visibility:0, Input:"0.0 0.0 5.0 3.0 5.0", ExpOutput:"Point is outside the Circle.", Output:"Point is outside the Circle."
 */
 #include<stdio.h>
-
+#include<math.h>
 int main()
 {
     float x,y,r,x1,y1,s;

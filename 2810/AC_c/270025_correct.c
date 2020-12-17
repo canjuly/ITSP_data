@@ -9,6 +9,7 @@ Verdict:ACCEPTED, Visibility:0, Input:"0.0001 -1000", ExpOutput:"The area of (0.
 ", Output:"The area of (0.0001,-1000.0000), (0.0001,0) and (0,-1000.0000) is 0.0500."
 */
 #include<stdio.h>
+#include<math.h>
 
 int main(){
 	/*calculation of area of triangle*/

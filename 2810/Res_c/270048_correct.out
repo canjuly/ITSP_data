@@ -1,1 +1,1 @@
-[{'res': False, 'info': {}}, {'res': False, 'info': {}}, {'res': False, 'info': {}}, {'res': False, 'info': {}}]
+[{'res': True, 'info': {'a': ['1'], 'b': ['1']}}, {'res': True, 'info': {'a': ['-1'], 'b': ['1']}}, {'res': True, 'info': {'a': ['-100'], 'b': ['-9']}}, {'res': True, 'info': {'a': ['0.0001'], 'b': ['-1000']}}]

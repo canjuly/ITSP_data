@@ -10,6 +10,7 @@ Verdict:ACCEPTED, Visibility:0, Input:"0.0001 -1000", ExpOutput:"The area of (0.
 */
 //Welcome to C programming...Today, we have to calculate the area of the triangle formed by the three points (a,b), (a,0) and (0,b);
 #include<stdio.h>
+#include<math.h>
 
 int main(){
     
