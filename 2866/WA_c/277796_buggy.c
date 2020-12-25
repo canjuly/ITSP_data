@@ -23,8 +23,8 @@ Verdict:WRONG_ANSWER, Visibility:0, Input:"141", ExpOutput:"Yes
 int check_prime(int num)
 {
  int c=0;
- for(int i=2;i<=num;i++)
-    if(num%i==0)c++;
+ for(int i=2;i<=num;i++) {
+    if(num%i==0)c++;}
  if(c==1)return num;
  return 1;
 }

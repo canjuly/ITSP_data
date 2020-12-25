@@ -6,7 +6,7 @@ Verdict:ACCEPTED, Visibility:0, Input:"23 57", ExpOutput:"23 29 31 37 41 43 47 5
 Verdict:ACCEPTED, Visibility:0, Input:"31 47", ExpOutput:"31 37 41 43 47 ", Output:"31 37 41 43 47 "
 */
 #include<stdio.h>
-
+#include<math.h>
 int check_prime(int num)
 {   int k; 
     for(k=2;k<=sqrt(num);k++)
