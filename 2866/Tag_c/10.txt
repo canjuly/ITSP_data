@@ -1,2 +1,4 @@
 277860_buggy.c
 277860_correct.c
+38
+p变量会超int范围

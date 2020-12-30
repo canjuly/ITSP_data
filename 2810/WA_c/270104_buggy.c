@@ -9,7 +9,7 @@ Verdict:WRONG_ANSWER, Visibility:0, Input:"0.0001 -1000", ExpOutput:"The area of
 ", Output:"The area of (0.0001,-1000.0000), (0.0001,0) and (0,-1000.0000) is 0.0000."
 */
 #include<stdio.h>
-
+#include<math.h>
 int main(){
 float a,b;
 scanf("%f%f",&a,&b);
