@@ -1,19 +1,3 @@
-/*numPass=2, numTotal=7
-Verdict:WRONG_ANSWER, Visibility:1, Input:"14", ExpOutput:"17
-", Output:"15"
-Verdict:WRONG_ANSWER, Visibility:1, Input:"24", ExpOutput:"29
-", Output:"25"
-Verdict:ACCEPTED, Visibility:1, Input:"1", ExpOutput:"2
-", Output:"2"
-Verdict:WRONG_ANSWER, Visibility:1, Input:"68", ExpOutput:"71
-", Output:"69"
-Verdict:WRONG_ANSWER, Visibility:0, Input:"99", ExpOutput:"101
-", Output:"99"
-Verdict:ACCEPTED, Visibility:0, Input:"150", ExpOutput:"151
-", Output:"151"
-Verdict:WRONG_ANSWER, Visibility:0, Input:"200", ExpOutput:"211
-", Output:"201"
-*/
 #include<stdio.h>
 int check_prime(int num)
 {

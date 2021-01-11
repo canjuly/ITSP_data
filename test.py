@@ -85,7 +85,41 @@ def fun3():
             new_case_path = case_path.replace('.txt', '')
             os.rename(case_path, new_case_path)
 
+def fun4():
+    cwd = os.getcwd()
+    modify_list = ['2811', '2812', '2813', '2824', '2825', '2827', '2828', '2830', '2831', '2832', '2833', '2864', '2865', '2866', '2867', '2868', '2869', '2870', '2871']
+    problem_list = os.listdir(cwd)
+    for problem in problem_list:
+        if problem not in modify_list:
+            continue
+        print(problem)
+        problem_path = os.path.join(cwd, problem)
+        wa_path = os.path.join(problem_path, 'WA_c')
+        wa_list = os.listdir(wa_path)
+        for i in wa_list:
+            file_path = os.path.join(wa_path, i)
+            new_lines = []
+            with open(file_path, 'r+') as f:
+                lines = f.readlines()
+                # print(file_path)
+                st = 0
+                ed = 0
+                for i, line in enumerate(lines):
+                    if line.find('/*') >= 0:
+                        st = i
+                    if line.find('*/') >= 0:
+                        ed = i
+                        break
+                print(st, ed)
 
+                for i, line in enumerate(lines):
+                    if i < st or i > ed:
+                        new_lines.append(line)
+                # print(new_lines)
+            with open(file_path, 'w+') as f:
+                f.writelines(new_lines)
+            # break
+        # break
 
 if __name__ == "__main__":
-    fun3()
+    fun4()

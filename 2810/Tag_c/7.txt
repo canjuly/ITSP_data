@@ -1,4 +1,4 @@
 270053_buggy.c
 270053_correct.c
-16
+6
 应使用fasb而不是abs

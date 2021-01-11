@@ -1,4 +1,4 @@
 270104_buggy.c
 270068_correct.c
-16
+6
 应使用fabs而不是abs
